@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meri Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #1e88e5;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Meri Website</h1>
+  <p>Website bana kar paisa kamane ka safar</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Blog</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+  <div class="card">
+    <h2>Welcome</h2>
+    <p>Is website par aap earning, news ya knowledge se related articles padh sakte ho.</p>
+  </div>
+
+  <div class="card">
+    <h2>First Article</h2>
+    <p>Ye aapka pehla article hai. Yahan aap apna content likh sakte ho.</p>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Meri Website | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
